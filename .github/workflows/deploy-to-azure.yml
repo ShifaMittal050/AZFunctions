@@ -119,7 +119,7 @@ jobs:
 
        # Fetch published codes
        - name: 'Download Azure function release build'
-         uses: actions/download-artifact@v2
+         uses: actions/download-artifact@v4
          with:
            name: build_artifacts
            path: ${{ env.BUILD_OUTPUT_PATH }}
