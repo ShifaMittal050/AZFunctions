@@ -154,7 +154,7 @@
             "apiVersion": "2020-02-02-preview",
             "name": "FirstFuncApps",
             "type": "microsoft.insights/components",
-            "location": "eastasia",
+            "location": "[parameters('location')]",
             "tags": null,
             "dependsOn": [],
             "properties": {
