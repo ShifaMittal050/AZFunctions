@@ -22,7 +22,7 @@ jobs:
       steps:
 
        # Authentication
-       # Set up the following secrets in your repository: AZURE_CREDENTIALS
+       # Set up the following secrets in your repository: AZURE_CREDENTIALSs
        # For details see https://docs.microsoft.com/en-us/azure/developer/github/connect-from-azure
        - name: 'Login to Azure'
          uses: azure/login@v1
