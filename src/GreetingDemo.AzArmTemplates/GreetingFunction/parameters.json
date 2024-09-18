@@ -3,25 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "subscriptionId": {
-            "value": "b5807c0a-337d-46ac-97e4-8fec9853ef4a"
+            "value": "18d2a67d-3473-45ea-beed-86a03b59409a"
         },
         "name": {
-            "value": "greetingservice"
+            "value": "FirstFuncApps"
         },
         "location": {
-            "value": "Australia Southeast"
+            "value": "East Asia"
         },
-        "hostingPlanName": {
-            "value": "ASP-gitactionsdeployfuncdemo-8638"
-        },
-        "serverFarmResourceGroup": {
-            "value": "git-actions-deploy-func-demo"
-        },
-        "alwaysOn": {
-            "value": false
+        "ftpsState": {
+            "value": "FtpsOnly"
         },
         "storageAccountName": {
-            "value": "storageaccountgitac91b1"
+            "value": "test841a"
         },
         "sku": {
             "value": "Dynamic"
@@ -39,7 +33,19 @@
             "value": "1"
         },
         "use32BitWorkerProcess": {
-            "value": true
+            "value": false
+        },
+        "netFrameworkVersion": {
+            "value": "v8.0"
+        },
+        "hostingPlanName": {
+            "value": "ASP-Test-b4ce"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Test"
+        },
+        "alwaysOn": {
+            "value": false
         }
     }
 }
