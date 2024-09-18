@@ -35,16 +35,16 @@ jobs:
  
        # Deploy Azure function app
        # Note: Using Azure CLI for deployment as it provides more verbose error messages
-       - name: 'Creating Azure Function App'
-         uses: azure/CLI@v1
-         with:
-           inlineScript: |
-             az deployment group create \
-             --name az-func-workflow-deploy \
-             --resource-group ${{ env.AZURE_RESOURCE_GROUP_NAME }} \
-             --template-file $GITHUB_WORKSPACE/src/GreetingDemo.AzArmTemplates/GreetingFunction/template.json \
-             --mode incremental \
-             --parameters $GITHUB_WORKSPACE/src/GreetingDemo.AzArmTemplates/GreetingFunction/parameters.json \
+      # - name: 'Creating Azure Function App'
+      #   uses: azure/CLI@v1
+       #  with:
+        #   inlineScript: |
+        #     az deployment group create \
+        #     --name az-func-workflow-deploy \
+         #    --resource-group ${{ env.AZURE_RESOURCE_GROUP_NAME }} \
+         #    --template-file $GITHUB_WORKSPACE/src/GreetingDemo.AzArmTemplates/GreetingFunction/template.json \
+         #   --mode incremental \
+         #    --parameters $GITHUB_WORKSPACE/src/GreetingDemo.AzArmTemplates/GreetingFunction/parameters.json \
  
     ############################################################################
 
