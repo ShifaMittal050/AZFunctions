@@ -117,7 +117,7 @@ jobs:
          run: |
            mkdir ${{ env.BUILD_OUTPUT_PATH }}
 
-       # Fetch published code
+       # Fetch published codes
        - name: 'Download Azure function release build'
          uses: actions/download-artifact@v2
          with:
