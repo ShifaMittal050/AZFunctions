@@ -72,7 +72,7 @@ jobs:
            mkdir ${{ env.BUILD_OUTPUT_PATH }}
            zip -r ${{ env.BUILD_OUTPUT_PATH }}/${{ env.BUILD_PACKAGE_NAME }} .
        
-       # Upload the code artifact, this will be used later
+       # Upload the code artifact, this will be used laterr
        - name: 'Package Azure Function release build'
          uses: actions/upload-artifact@v2
          with:
