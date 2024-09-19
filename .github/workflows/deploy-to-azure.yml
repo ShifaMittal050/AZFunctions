@@ -46,7 +46,7 @@ jobs:
          #   --mode incremental \
          #    --parameters $GITHUB_WORKSPACE/src/GreetingDemo.AzArmTemplates/GreetingFunction/parameters.json \
  
-    ############################################################################
+    #############################################################################
 
     build-az-function:
       needs: [deploy-az-infrastructure]
